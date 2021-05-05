@@ -21,5 +21,7 @@ sleep(.33)
 tello.send_rc_control(0,50,0,0)
 sleep(3.89)
 
+tello.send_rc_cotrol(0,0,0,0)
+
 #leg 5
 tello.land
