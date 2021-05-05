@@ -7,8 +7,6 @@ tello = Tello()
 #leg 1
 tello.connect()
 
-tello.move_up(102)
-
 #leg 2
 tello.send_rc_control(0,0,50,0)
 sleep(3.92)
